@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="vertical"
+    android:padding="@dimen/list_item_padding">
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingBottom="@dimen/small_spacing"
+        android:textAppearance="?android:textAppearanceListItem"
+        tools:text="Super article on how to become a great android developer over a night  ! 0_o" />
+
+    <TextView
+        android:id="@+id/news_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?android:textAppearanceListItemSecondary"
+        android:textColor="@color/colorAccent"
+        tools:text="Mr Nevercoded" />
+
+</LinearLayout>
